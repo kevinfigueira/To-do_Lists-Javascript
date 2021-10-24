@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>To-do Lists</title>
+</head>
+<body>
+    <!--HEADER START-->
+    <header class="header">
+        <h1 class="header_title">To-do Lists</h1>
+    </header>
+    <!--HEADER END-->
+    
+    
+    <!--GENERAL START-->
+    <main class="container_genaral">   
+
+        <form action="" class="container_form">
+            <div class="tasks">
+                <input type="text" name="" class="tasks_input">
+                <button type="submit" class="button">
+                    <i class="fas fa-plus-square"></i>
+                </button>
+            </div>
+    
+            <div class="select">
+                <select name="select_list" class="filter">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+
+        <div class="container_list">
+            <ul class="list">
+            </ul>
+        </div>
+    </main><!--GENERAL END-->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
