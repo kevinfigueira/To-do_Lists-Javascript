@@ -107,6 +107,44 @@ body{
     opacity: 0;
 }
  /* ================ MEDIA ==============*/
+ @media (min-width: 375px) {
+    .container{
+        width: 30rem;
+    }
+    .container_newTasks, .container_tasks{
+        width: 22rem;
+    }
+    #input{
+        width: 16rem;
+        font-size: 1rem;
+    }
+    .child_list{
+        width: 21rem;
+    }
+    .task{
+        width: 16rem;
+        font-size: 1.2rem;
+    }
+ }
+ @media (min-width:425px) {
+    .container{
+        width: 35rem;
+    }
+    .container_newTasks, .container_tasks{
+        width: 25rem;
+    }
+    #input{
+        width: 18rem;
+        font-size: 1rem;
+    }
+    .child_list{
+        width: 23rem;
+    }
+    .task{
+        width: 18rem;
+        font-size: 1.2rem;
+    }
+ }
  @media (min-width: 768px) {
     .container{
         width: 40rem;
