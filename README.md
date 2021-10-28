@@ -3,7 +3,7 @@
         Todo List
     </h1>
 </div>
-<div align="center" color="red">Todo List desenvolvida com HTML, CSS e JavaScript</div>
+<div align="center" color="red">Todo List desenvolvido com HTML, CSS e Javascript</div>
 
 <br>
 
@@ -15,7 +15,7 @@
 
 <div align="center">
     <hr>
-    <h2>Resposive</h2>
+    <h2>Responsive</h2>
 </div>
 
 <br>
